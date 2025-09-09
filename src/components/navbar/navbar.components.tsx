@@ -2,7 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div class="bg-black h-screen w-48">
+    <div className="bg-black h-screen w-48">
+      <img src="../../../public/vite.svg" />
+      <hr className="bg-blue-700 h-10" />
+
       <ul>
         <li>
           <a href="#">Home</a>
